@@ -5,8 +5,6 @@
 
 E-mail: lena.chekhovich@gmail.com 
 
-LinkedIn: https://www.linkedin.com/in/lenachekhovich 
-
 Mob. (Viber, Telegram): +375 (29) 358-04-70
 
 ## Education: 
