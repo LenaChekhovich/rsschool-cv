@@ -9,7 +9,7 @@ Mob. (Viber, Telegram): +375 (29) 358-04-70
 
 ## Education: 
 
-2007 – 2012 Belarusian State University, Faculty of Philology
+**2007 – 2012 Belarusian State University, Faculty of Philology**
 
 Specialty (direction): Romance and Germanic (English) Philology
 
