@@ -1,1 +1,182 @@
-Alena Chekhovich
+@font-face {
+    font-family: 'Roboto';
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+    font-weight: 800;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #63514e;
+    min-height: 100vh;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F9F9FF;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .main {
+    margin-top: auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 20px;
+    transition: .3s;
+  }
+
+  .section {
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid silver;
+  }
+
+  .nav-link:hover {
+    color: silver;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header {
+    background-color: #896e69;
+    padding: 20px;
+  }
+
+  .footer {
+    background-color: #896e69;
+    color: floralwhite;
+  }
+
+  .section {
+    width: 50%;
+    line-height: 1.5;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+  }
+
+  .section-list {
+    padding-left: 0;
+  }
+
+  .code-example {
+    background-color: rgb(45, 44, 44);
+    color: floralwhite;
+  }
+
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+
+  .section-profile-subtitle {
+    letter-spacing: 5px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4a4646;
+    font-weight: 800;
+  }
+
+  .img-main {
+    width: 200px;
+    height: 250px;
+    border-radius: 30%;
+  }
+
+  .img-main:hover {
+    opacity: 0.8;   
+  }
+
+  h1, h3 {
+    color: #4a4646;
+  }
+
+  .section-item {
+    list-style: none;
+  }
+
+  .rsschool-link {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .github-link {
+    text-decoration: none;
+  }
+
+  .github-link:visited {
+    text-decoration: none;
+    color: floralwhite;
+  }
+
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+
+  @media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+  }
